@@ -19,7 +19,16 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubProductActivity"
+            android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ListOfProductActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ImageUploadActivity"></activity>
     </application>
 
 </manifest>
